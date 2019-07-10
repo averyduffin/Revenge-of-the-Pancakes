@@ -50,6 +50,11 @@ big test file
 
 five test file
 
-`npm run five`
+```npm run five```
 
 Your files will write to the folder output.
+
+
+### Adding new test cases to run
+
+To run an additional file it needs to go in the directory `test-cases` and the file name needs to be `{name}.in` . Then that new file can be run with `npm run start {name}` (without the .in)
