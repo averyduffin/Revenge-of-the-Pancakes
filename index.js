@@ -2,8 +2,13 @@ import fs from 'fs'
 import readline from 'readline'
 
 import path from 'path'
+const outputDir = 'output'
+const outFilePath = path.join(__dirname, `${outputDir}/${process.argv[2]}.output`)
+const fullOutputPath = path.join(__dirname, `${outputDir}`);
 
-const outFilePath = path.join(__dirname, `output/${process.argv[2]}.output`)
+if (!fs.existsSync(fullOutputPath)){
+    fs.mkdirSync(fullOutputPath);
+}
 
 fs.unlink(outFilePath, () => {
     const readInterface = readline.createInterface({  
