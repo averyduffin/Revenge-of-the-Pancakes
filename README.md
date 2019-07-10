@@ -32,5 +32,24 @@ Every character in **S** is either `+` or `-`.
 
 1 ≤ length of **S** ≤ 100.
 
-###How to execute this app
+### How to execute this app
+
+first make sure you have node installed on your computer.
+
+run 
+
 `npm install`
+
+Small test file
+
+`npm run small`
+
+big test file
+
+`npm run large`
+
+five test file
+
+`npm run five`
+
+Your files will write to the folder output.
