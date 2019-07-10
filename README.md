@@ -32,40 +32,5 @@ Every character in **S** is either `+` or `-`.
 
 1 ≤ length of **S** ≤ 100.
 
-### Sample
-
-|\
-Input\
-  |\
-Output\
-  |
-|
-
-5
--+
-+-
-+++
---+-
-
- |
-
-Case #1: 1
-Case #2: 1
-Case #3: 2
-Case #4: 0
-Case #5: 3
-
- |
-
-In Case #1, you only need to execute the maneuver once, flipping the first (and only) pancake.
-
-In Case #2, you only need to execute the maneuver once, flipping only the first pancake.
-
-In Case #3, you must execute the maneuver twice. One optimal solution is to flip only the first pancake, changing the stack to `--`, and then flip both pancakes, changing the stack to `++`. Notice that you cannot just flip the bottom pancake individually to get a one-move solution; every time you execute the maneuver, you must select a stack starting from the top.
-
-In Case #4, all of the pancakes are already happy side up, so there is no need to do anything.
-
-In Case #5, one valid solution is to first flip the entire stack of pancakes to get `+-++`, then flip the top pancake to get `--++`, then finally flip the top two pancakes to get `++++`.
-
 ###How to execute this app
 `npm install`
