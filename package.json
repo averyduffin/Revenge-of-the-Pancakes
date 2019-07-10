@@ -4,6 +4,11 @@
   "description": "This is a coding challenge",
   "main": "index.js",
   "scripts": {
+    "start": "babel-node index.js",
+    "five": "babel-node index.js five",
+    "small": "babel-node index.js B-small-practice",
+    "large": "babel-node index.js B-large-practice",
+    "dev": "nodemon --exec babel-node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +20,16 @@
   "bugs": {
     "url": "https://github.com/averyduffin/Revenge-of-the-Pancakes/issues"
   },
-  "homepage": "https://github.com/averyduffin/Revenge-of-the-Pancakes#readme"
+  "homepage": "https://github.com/averyduffin/Revenge-of-the-Pancakes#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.13"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/node": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "nodemon": "^1.19.1"
+  }
 }
