@@ -23,7 +23,7 @@
   "homepage": "https://github.com/averyduffin/Revenge-of-the-Pancakes#readme",
   "dependencies": {
     "fs": "0.0.1-security",
-    "lodash": "^4.17.13"
+    "lodash": "^4.17.19"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.0",
